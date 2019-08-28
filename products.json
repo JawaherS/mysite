@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "productId": "1",
+      "name": "MK Cover",
+      "price": "200 AED",
+      "imagesrc": "./assets/MK1.jpg",
+      "description": "Michael Kors Phone Cover"
+    },
+    {
+      "productId": "2",
+      "name": "Lacoste Cover",
+      "price": "200 AED",
+      "imagesrc": "./assets/Lacoste.jpg",
+      "description": "Lacoste Phone Cover"
+    },
+    {
+      "product-id": "3",
+      "name": "Gucci Cover",
+      "price": "300 AED",
+      "imagesrc": "./assets/Gucci1.jpg",
+      "description": "Gucci Phone Cover"
+    },
+    {
+      "product-id": "4",
+      "name": "Kenzo Cover",
+      "price": "100 AED",
+      "imagesrc": "./assets/Kenzo1.jpg",
+      "description": "Kenzo Phone Cover"
+    },
+    {
+      "product-id": "5",
+      "name": "Burberry Cover",
+      "price": "450 AED",
+      "imagesrc": "./assets/Burberry1.jpg",
+      "description": "Burberry Phone Cover"
+    },
+    {
+      "product-id": "6",
+      "name": "Tommy_Hilfiger Cover",
+      "price": "500 AED",
+      "imagesrc": "./assets/Tommy_Hilfiger.jpg",
+      "description": "Tommy Hilfiger Phone Cover"
+    },
+    {
+      "product-id": "7",
+      "name": "burberry Cover",
+      "price": "400 AED",
+      "imagesrc": "./assets/burberry.jpg",
+      "description": "Burberry Phone Cover"
+    },
+    {
+      "product-id": "8",
+      "name": "MK Cover",
+      "price": "300 AED",
+      "imagesrc": "./assets/MK.jpg",
+      "description": "Michael Kors Phone Cover"
+    },
+    {
+      "product-id": "9",
+      "name": "TOMMY-HILFIGER Cover",
+      "price": "350 AED",
+      "imagesrc": "./assets/TOMMY-HILFIGER.jpg",
+      "description": "Tommy Hilfiger Phone Cover"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Jawaher's Online Store!</title>
+  </link>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style.css"> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<div id="container"></div>
+  <div id="header">
+    <div class="logo">
+      <img alt="logo" src="./assets/logoJawaher1.png">
+    </div>
+    <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="welcomeBox">
+      <div class="welcomeMessage">
+        <i class="material-icons">person_outline</i>
+        <span style="font-size:20px;font-family:monospace;">Welcome, Jawaher</span>
+      </div>
+      <div class="cart">
+        <i class="material-icons">shopping_cart</i>
+        <span style="font-size:18px;font-family:monospace;">2 Items</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Categories
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Mobile Phones Covers</a>
+        <a href="#">MK Covers</a>
+        <a href="#">Chanel Covers</a>
+        <a href="#">Gucci Covers</a>
+        <a href="#">Burberry Covers</a>
+        <a href="#">Kenzo Covers</a>
+        <a href="#">Lacoste Covers</a>
+        <a href="#">Tommy Hilfiger Covers</a>
+
+      </div>
+    </div>
+    <a href="#todays-deal">Today's Deals</a>
+    <a href="#gift-cards">Gift Cards</a>
+    <a href="#registry">Registry</a>
+    <a href="#help">Help</a>
+
+  </div>
+  </div>
+  <div id="flex-container">
+    <div class="flex-item-left-panel">
+      <h4 align="center" id="product-header" style="font-family: Monospace;">Filter By</h4>
+      <div class="filter">
+        <h5 style="font-family: Monospace;">Popular Brands</h5>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Kenzo</label>
+        <br/>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Chanel</label>
+        </br>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Gucci</label>
+        </br>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Burberry</label>
+        </br>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          MK</label>
+        </br>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Lacoste</label>
+        </br>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Tommy Hilfiger</label>
+        </br>
+      </div>
+      <div class="filter">
+        <h5 style="font-family: Monospace;">Favorite Color</h5>
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Brown</label>
+        </br>
+
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Green</label>
+        </br>
+
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          White</label>
+        </br> 
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Black</label>
+        </br>
+
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Blue</label>
+        </br>
+
+        <label class="container">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Red</label>
+        </br>
+      
+        <br>
+      </div>
+      <div class="filter">
+        <h5 style="font-family: Monospace;"> Budget Price (AED)</h5>
+        <form action="/action_page.php">
+          From
+          <input type="number" style="width:70px">
+
+          To
+          <input type="number" style="width:70px"><br><br>
+          <input type="submit" style="border-radius:25px">
+        </form>
+      </div>
+      <div class="filter">
+        <form action="/action_page.php">
+          Search by discount amount %:
+          <br>
+          <br>
+          <input type="number" style="width:150px";
+          /><br>
+          <br>
+          <input type="submit" style="border-radius:25px">
+
+        </form>
+      </div>
+    </div>
+
+    <div class="flex-item-middle-panel">
+      <div class="gallery">
+            
+          <a target="_blank" href="MK1.jpg"></a>
+          <img src="./assets/MK1.jpg" alt="MK1.jpg" width="600" height="400">    
+          </a>
+          <div class="desc">Michael Kors Phone Cover "Black"<br> Price: 200 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Lacoste.jpg">
+            <img src="./assets/Lacoste.jpg" alt="Lacoste.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Lacoste Phone Cover "Green" <br> Price: 200 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Gucci1.jpg">
+            <img src="./assets/Gucci1.jpg" alt="Gucci1.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Gucci Phone Cover "Red/Green" <br> Price: 300 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="Kenzo1.jpg">
+            <img src="./assets/Kenzo1.jpg" alt="Kenzo1.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Kenzo Phone Cover "Black" <br> Price: 100 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="Burberry1.jpg">
+            <img src="./assets/Burberry1.jpg" alt="Burberry1.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Burberry Phone Cover "Brown" <br> Price: 450 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="Tommy_Hilfiger.jpg">
+            <img src="./assets/Tommy_Hilfiger.jpg" alt="Tommy_Hilfiger.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Tommy Hilfiger Phone Cover "Blue"<br> Price: 500 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="burberry.jpg">
+            <img src="./assets/burberry.jpg" alt="burberry.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Burberry Phone Cover "Brown" <br> Price: 400 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="MK.jpg">
+            <img src="./assets/MK.jpg" alt="MK" width="600" height="400">
+          </a>
+          <div class="desc">Michael Kors Phone Cover "White" <br> Price: 300 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        <div class="gallery">
+          <a target="_blank" href="TOMMY-HILFIGER.jpg">
+            <img src="./assets/TOMMY-HILFIGER.jpg" alt="TOMMY-HILFIGER.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Tommy Hilfiger Phone Cover "Red" <br> Price: 350 AED
+            <p><button class="btn1 success">Take Me</button>
+            </p></div>
+        </div>
+        
+
+      </div>
+      <div class="flex-item-right-panel">
+        <div class="aside">
+          <h2 style="font-family: Monospace;">Leave your print!!!</h2>
+          <br>
+          <h5 style="font-family: Monospace;">Contact us for more information!</b></h5>
+          <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+        <br>
+          <h5 style="font-family: Monospace;">leave your e-mail if you have any suggestions </b></h5>
+            <form class="form-inline">Get deals:
+              <input type="email" class="form-control" size="20" placeholder="Email Address">
+            <br>
+            <br>
+              <button type="button" style="border-radius:25px" class="btn btn-danger">Sign Up </button>
+              <br>
+              <br>
+          <h2 style="font-family: Monospace;">Touch Me</h2>
+          <img class="shake" src="./assets/shake.jpeg" alt="Pineapple" width="250" height="250" >
+   
+        </div>
+      </div>
+    </div>
+
+  
+ 
+
+  <div class="footer">
+    <br>
+    <br>
+    <br>
+    <p>Hope you enjoyed your shopping with us!</p>
+      <p>Copyright ©2019 All rights reserved & This website is mede with Jawaher Saeed Almehrzi</p>
+    </form>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
+

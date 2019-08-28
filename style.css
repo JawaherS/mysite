@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 235px;
+  -webkit-font-smoothing: antialiased;
+}
+#header {
+  height: 250px;
+  background-image: url("./assets/GucciBG.jpg");
+  margin: 0 auto;
+}
+#header .logo {
+  float: left;
+  padding: 50px;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+#header .logo img {
+  width: 150px;
+  height: 150px;
+}
+#header .searchBox {
+  float: left;
+  padding: 35px;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+#header .searchBox input {
+  height: 30px;
+  width: 80%;
+  border-radius: 6px;
+  text-align: center;
+}
+.search {
+  position: relative;
+  display: flex;
+  float: left;
+  padding: 100px;
+  width: 60%;
+  height: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #e78975;
+  border-right: none;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #e78975;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: #e78975;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#header .welcomeBox {
+  float: left;
+  width: 20%;
+  padding: 70px;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  color: #f9f9f9;
+}
+
+.header {
+  background-image: url("./assets/backimg.jpeg");
+  color: #ffffff;
+  padding: 15px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #e78975;
+  font-family: Monospace;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Monospace;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: peachpuff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.filter {
+  padding-left: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 25%;
+  padding: 20px;
+  background: white;
+}
+
+#firstgallery {
+  width: 100%;
+  margin-left: 20px;
+}
+
+div.gallery {
+  margin: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  height: 350px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/* Button */
+.btn1 {
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: #fab2a3;
+  color: black;
+  border-radius: 25px;
+} /* Gray */
+.success:hover {
+  background: peachpuff;
+}
+
+p > a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+  cursor: pointer;
+}
+
+.aside {
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-social-icons {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+
+.fa-youtube {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+
+.fa-google-plus {
+  padding: 10px 9px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-google-plus:hover {
+  background-color: #e25714;
+}
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.flex-item-left-panel {
+  font-size: 15px;
+  justify-content: center;
+  width: 16%;
+  height: 100%;
+  background-image: url("./assets/GucciFilter.jpg");
+  padding: 15px;
+  margin: 10px;
+  border: 3px double black;
+}
+
+.flex-item-middle-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  background: white;
+  padding: 60px;
+  margin: 10px;
+  border: 3px double black;
+}
+
+.flex-item-right-panel {
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  border: 3px double black;
+  background-image: url("./assets/GucciAside.jpg");
+}
+
+.footer {
+  background-image: url("./assets/GucciBG1.jpg");
+  color: whitesmoke;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+  /* Footer height */
+}
