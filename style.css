@@ -2,7 +2,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "fantasy";
 }
 
 * {
@@ -63,10 +63,10 @@ body {
   border: 3px solid #e78975;
   border-right: none;
   padding: 5px;
-  height: 35px;
+  height: 50px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9dbfaf;
+  color: #e78975;
 }
 
 .searchTerm:focus {
@@ -74,8 +74,8 @@ body {
 }
 
 .searchButton {
-  width: 40px;
-  height: 36px;
+  width: 60px;
+  height: 50px;
   border: 1px solid black;
   background: #e78975;
   text-align: center;
@@ -104,7 +104,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #e78975;
-  font-family: Monospace;
+  font-family: fantasy;
 }
 
 .navbar a {
@@ -128,13 +128,13 @@ body {
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: Monospace;
   margin: 0;
 }
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: peachpuff;
+  font-family: "fantasy";
 }
 
 .dropdown-content {
@@ -170,6 +170,7 @@ body {
   height: 25%;
   padding: 20px;
   background: white;
+  font-family: "fantasy";
 }
 
 #firstgallery {
@@ -197,6 +198,7 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-family: fantasy;
 }
 
 .shake:hover {
@@ -252,7 +254,7 @@ div.desc {
   background-color: #fab2a3;
   color: black;
   border-radius: 25px;
-} /* Gray */
+}
 .success:hover {
   background: peachpuff;
 }
@@ -277,7 +279,8 @@ ul {
   padding: 15px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: "fantasy";
 }
 .footer-social-icons {
   width: 350px;
@@ -366,7 +369,7 @@ ul.social-icons {
   background-image: url("./assets/GucciFilter.jpg");
   padding: 15px;
   margin: 10px;
-  border: 3px double black;
+  border: 5px inset #fab2a3;
 }
 
 .flex-item-middle-panel {
@@ -378,7 +381,8 @@ ul.social-icons {
   background: white;
   padding: 60px;
   margin: 10px;
-  border: 3px double black;
+  border: 5px inset #fab2a3;
+  font-family: "fantasy";
 }
 
 .flex-item-right-panel {
@@ -388,7 +392,7 @@ ul.social-icons {
   background: white;
   padding: 15px;
   margin: 10px;
-  border: 3px double black;
+  border: 5px inset #fab2a3;
   background-image: url("./assets/GucciAside.jpg");
 }
 
@@ -401,5 +405,4 @@ ul.social-icons {
   bottom: 0;
   width: 100%;
   padding-bottom: 50px;
-  /* Footer height */
 }
