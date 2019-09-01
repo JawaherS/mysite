@@ -19,19 +19,20 @@
       <img alt="logo" src="./assets/logoJawaher1.png">
     </div>
     <div class="search">
-      <input type="text" class="searchTerm" placeholder="What are you looking for?">
-      <button type="submit" class="searchButton">
+      <input id="searchBarInput" type="text" class="searchTerm" placeholder="What are you looking for?" >
+      <button onclick="fillterdProducts()" type="submit" class="searchButton" >
         <i class="fa fa-search"></i>
       </button>
     </div>
     <div class="welcomeBox">
       <div class="welcomeMessage">
         <i class="material-icons">person_outline</i>
-        <span style="font-size:20px;font-family:monospace;">Welcome, Jawaher</span>
+        <span style="font-size:20px;font-family:monospace;">Welcome, <span id="userName">Jawaher</span></span>
+       <span onclick="logout()"> <i class="fa fa-sign-out"></i></span>
       </div>
       <div class="cart">
-        <i class="material-icons">shopping_cart</i>
-        <span style="font-size:18px;font-family:monospace;">2 Items</span>
+        <i class="material-icons"  >shopping_cart</i>
+        <span style="font-size:18px;font-family:monospace;" id="shopingcart">0</span>
       </div>
     </div>
   </div>
@@ -165,12 +166,12 @@
         </form>
       </div>
     </div>
-
-    <div class="flex-item-middle-panel">
+    <div id="flex-item-middle-panel"></div>
+    <!-- <div class="flex-item-middle-panel">
       <div class="gallery">
             
           <a target="_blank" href="MK1.jpg"></a>
-          <img src="./assets/MK1.jpg" alt="MK1.jpg" width="600" height="400">    
+          <img src="./assets/MK1.jpg" alt="MK1.jpg">    
           </a>
           <div class="desc">Michael Kors Phone Cover "Black"<br> Price: 200 AED
             <p><button class="btn1 success">Take Me</button>
@@ -179,7 +180,7 @@
 
         <div class="gallery">
           <a target="_blank" href="Lacoste.jpg">
-            <img src="./assets/Lacoste.jpg" alt="Lacoste.jpg" width="600" height="400">
+            <img src="./assets/Lacoste.jpg" alt="Lacoste.jpg">
           </a>
           <div class="desc">Lacoste Phone Cover "Green" <br> Price: 200 AED
             <p><button class="btn1 success">Take Me</button>
@@ -188,7 +189,7 @@
 
         <div class="gallery">
           <a target="_blank" href="Gucci1.jpg">
-            <img src="./assets/Gucci1.jpg" alt="Gucci1.jpg" width="600" height="400">
+            <img src="./assets/Gucci1.jpg" alt="Gucci1.jpg">
           </a>
           <div class="desc">Gucci Phone Cover "Red/Green" <br> Price: 300 AED
             <p><button class="btn1 success">Take Me</button>
@@ -197,7 +198,7 @@
 
         <div class="gallery">
           <a target="_blank" href="Kenzo1.jpg">
-            <img src="./assets/Kenzo1.jpg" alt="Kenzo1.jpg" width="600" height="400">
+            <img src="./assets/Kenzo1.jpg" alt="Kenzo1.jpg">
           </a>
           <div class="desc">Kenzo Phone Cover "Black" <br> Price: 100 AED
             <p><button class="btn1 success">Take Me</button>
@@ -205,7 +206,7 @@
         </div>
         <div class="gallery">
           <a target="_blank" href="Burberry1.jpg">
-            <img src="./assets/Burberry1.jpg" alt="Burberry1.jpg" width="600" height="400">
+            <img src="./assets/Burberry1.jpg" alt="Burberry1.jpg">
           </a>
           <div class="desc">Burberry Phone Cover "Brown" <br> Price: 450 AED
             <p><button class="btn1 success">Take Me</button>
@@ -213,7 +214,7 @@
         </div>
         <div class="gallery">
           <a target="_blank" href="Tommy_Hilfiger.jpg">
-            <img src="./assets/Tommy_Hilfiger.jpg" alt="Tommy_Hilfiger.jpg" width="600" height="400">
+            <img src="./assets/Tommy_Hilfiger.jpg" alt="Tommy_Hilfiger.jpg">
           </a>
           <div class="desc">Tommy Hilfiger Phone Cover "Blue"<br> Price: 500 AED
             <p><button class="btn1 success">Take Me</button>
@@ -221,7 +222,7 @@
         </div>
         <div class="gallery">
           <a target="_blank" href="burberry.jpg">
-            <img src="./assets/burberry.jpg" alt="burberry.jpg" width="600" height="400">
+            <img src="./assets/burberry.jpg" alt="burberry.jpg">
           </a>
           <div class="desc">Burberry Phone Cover "Brown" <br> Price: 400 AED
             <p><button class="btn1 success">Take Me</button>
@@ -229,7 +230,7 @@
         </div>
         <div class="gallery">
           <a target="_blank" href="MK.jpg">
-            <img src="./assets/MK.jpg" alt="MK" width="600" height="400">
+            <img src="./assets/MK.jpg" alt="MK">
           </a>
           <div class="desc">Michael Kors Phone Cover "White" <br> Price: 300 AED
             <p><button class="btn1 success">Take Me</button>
@@ -237,7 +238,7 @@
         </div>
         <div class="gallery">
           <a target="_blank" href="TOMMY-HILFIGER.jpg">
-            <img src="./assets/TOMMY-HILFIGER.jpg" alt="TOMMY-HILFIGER.jpg" width="600" height="400">
+            <img src="./assets/TOMMY-HILFIGER.jpg" alt="TOMMY-HILFIGER.jpg">
           </a>
           <div class="desc">Tommy Hilfiger Phone Cover "Red" <br> Price: 350 AED
             <p><button class="btn1 success">Take Me</button>
@@ -245,7 +246,7 @@
         </div>
         
 
-      </div>
+      </div> -->
       <div class="flex-item-right-panel">
         <div class="aside">
           <h2 style="font-family: Monospace;">Leave your print!!!</h2>
@@ -289,5 +290,6 @@
 
 </body>
 <script src="script.js"></script>
+<script src="login.js"></script>
 </html>
 
